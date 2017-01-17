@@ -16,3 +16,9 @@ students[:cohort4] = 43
 puts students.keys
 
 printhash(students)
+
+students.each do |k, v|
+  students[k] = v * 1.05
+end
+
+printhash(students)
