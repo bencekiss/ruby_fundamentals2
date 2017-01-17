@@ -1,4 +1,4 @@
-def printhash(h={})
+def printhash(h = {})
   h.each do |k, v|
     puts "#{k}: #{v} students"
   end
@@ -12,5 +12,7 @@ students = {
 }
 
 students[:cohort4] = 43
+
+puts students.keys
 
 printhash(students)
