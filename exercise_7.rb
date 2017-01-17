@@ -11,4 +11,6 @@ students = {
   cohort3: 22
 }
 
+students[:cohort4] = 43
+
 printhash(students)
