@@ -22,3 +22,7 @@ students.each do |k, v|
 end
 
 printhash(students)
+
+students.delete(:cohort2)
+
+printhash(students)
